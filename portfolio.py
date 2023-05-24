@@ -87,3 +87,73 @@ work_experience = [
         'details': 'Winter Internship'
     }
 ]
+# Create section for community experience
+st.header('Community Experience')
+st.write('Here is my community experience:')
+
+community_experience = [
+    {
+        'role': 'Founder University Chapter Lead',
+        'organization': 'Hack2skill The Mountains',
+        'duration': 'Aug 2022 – Dec 2022'
+    },
+    {
+        'role': 'Founder Vice Chair',
+        'organization': 'IEEE Computational Intelligence Society IEEE Chandigarh University Student Branch',
+        'duration': 'Feb 2022 – June 2022'
+    },
+    {
+        'role': 'Founder Treasurer',
+        'organization': 'IEEE Robotics and Automation Society IEEE Chandigarh University Student Branch',
+        'duration': 'Jan 2022 – Feb 2022'
+    },
+    {
+        'role': 'Planning and Development Sub-Lead',
+        'organization': 'Events CSE Chandigarh University',
+        'duration': 'Jan 2022 – Aug 2022'
+    },
+    {
+        'role': 'Promotion Manager and Coordinator',
+        'organization': 'Tech Invent Chandigarh University',
+        'duration': 'July 2021 – Sept 2021'
+    }
+]
+
+# Display community experience in a table
+for experience in community_experience:
+    st.write(f"**{experience['role']}** at {experience['organization']} ({experience['duration']})")
+    st.write("")
+
+# Create section for research papers
+st.header('Research Papers')
+st.write('Here are some of my research papers:')
+
+research_papers = [
+    'Svelte.js: The Most Loved Framework Today',
+    '6G: 6G Network Architecture, 6G Communication Essential Technologies, and 6G Use Cases and Applications',
+    'IoT and Blockchain Integration for Secure Data Management',
+    'The Transfer Learning Power in chatGPT: A Comprehensive Study',
+    'UAVs - Pioneering the Future of Remote Sensing and Precision Agriculture',
+    'From User Testing to Personalization - A Comprehensive Guide to Mobile App Design',
+    'Augmented Reality(AR) and Mixed Reality (MR) - Applications in education, entertainment and industry',
+    'An extensive comparative analysis of Chatbot technologies: ChatGPT, Google BARD, and Microsoft Bing',
+    'Developing algorithms for efficient and scalable Machine Learning'
+]
+
+# Display research papers in a bulleted list
+for paper in research_papers:
+    st.write('- ' + paper)
+
+# Create section for patents
+st.header('Patents')
+st.write('Here are some of my patents:')
+
+patents = [
+    'Automated Display Lid Closing System For Laptops (ID: 202211055162)',
+    'Explosive Detection Device (ID: 202311014046)',
+    'Smart User-Interactive System For Laptop (ID: 202211055159)'
+]
+
+# Display patents in a bulleted list
+for patent in patents:
+    st.write('- ' + patent)
