@@ -83,77 +83,165 @@ work_experience = [
     {
         'position': 'Full Stack Web Developer',
         'company': 'Alhansat Technologies',
-        'duration': 'Dec 2022 - Present',
-        'details': 'Winter Internship'
-    }
-]
-# Create section for community experience
-st.header('Community Experience')
-st.write('Here is my community experience:')
-
-community_experience = [
-    {
-        'role': 'Founder University Chapter Lead',
-        'organization': 'Hack2skill The Mountains',
-        'duration': 'Aug 2022 – Dec 2022'
+        'duration': 'Dec 2022 – Present',
+        'description': 'UI-UX-Figma, Svelte.js, Node.js and Firebase. Created and deployed Fincalsy, Resume Builder, and Image Editor.'
     },
     {
-        'role': 'Founder Vice Chair',
-        'organization': 'IEEE Computational Intelligence Society IEEE Chandigarh University Student Branch',
-        'duration': 'Feb 2022 – June 2022'
-    },
-    {
-        'role': 'Founder Treasurer',
-        'organization': 'IEEE Robotics and Automation Society IEEE Chandigarh University Student Branch',
-        'duration': 'Jan 2022 – Feb 2022'
-    },
-    {
-        'role': 'Planning and Development Sub-Lead',
-        'organization': 'Events CSE Chandigarh University',
-        'duration': 'Jan 2022 – Aug 2022'
-    },
-    {
-        'role': 'Promotion Manager and Coordinator',
-        'organization': 'Tech Invent Chandigarh University',
-        'duration': 'July 2021 – Sept 2021'
+        'position': 'Graphic Designing Intern',
+        'company': 'Hack The Mountains',
+        'duration': 'Feb 2022 – Present',
+        'description': 'Been the Organizer at their various events. Developing Graphics and Media for the International Level Events by the Company.'
     }
 ]
 
-# Display community experience in a table
-for experience in community_experience:
-    st.write(f"**{experience['role']}** at {experience['organization']} ({experience['duration']})")
+# Display work experience in a table
+for job in work_experience:
+    st.write(f"**{job['position']}** at {job['company']} ({job['duration']})")
+    st.write(job['description'])
+
+# Create section for certifications
+st.header('Certifications')
+st.write('Here are my certifications:')
+
+certifications = [
+    'Postman API Fundamental Student Expert: Postman',
+    'Blockchain Training: Internshala',
+    'Data Analytics Specialization: Google, Coursera',
+    'The Fundamentals of Digital Marketing: Google',
+    '30 Days of Google Cloud: Developer Students Club, Google',
+    'Hacktoberfest 2020, 2021, 2022: Github, Digital Ocean, Open source'
+]
+
+# Display certifications in a bulleted list
+for certification in certifications:
+    st.write('- ' + certification)
+
+# Create section for projects
+st.header('Projects')
+st.write('Here are some of my projects:')
+
+projects = [
+    {
+        'name': 'Mandala',
+        'description': 'Women Safety Platform',
+        'technologies': 'Internet of Things, React, Node.js, Express, MongoDB',
+        'duration': 'May 2022 – Present'
+    },
+    {
+        'name': 'CVD Prediction in Humans',
+        'description': 'Research on Cardiovascular Diseases',
+        'technologies': 'Python, Machine Learning',
+        'duration': 'April 2022'
+    },
+    {
+        'name': 'Gesture-IT',
+        'description': 'HandGesture Control Library using OpenCV',
+        'technologies': 'Python, OpenCV, Machine Learning',
+        'duration': '2022'
+    },
+    {
+        'name': 'YouThoob',
+        'description': 'Clone of YouTube',
+        'technologies': 'HTML, CSS, JavaScript',
+        'duration': 'July 2021'
+    },
+    {
+        'name': 'Investigatory Project ICICI Bank',
+        'description': 'GUI Portal for banking operations',
+        'technologies': 'Java, Netbeans, MySQL',
+        'duration': '2020'
+    }
+]
+
+# Display projects in a table
+for project in projects:
+    st.write(f"**{project['name']}**")
+    st.write(f"- Description: {project['description']}")
+    st.write(f"- Technologies: {project['technologies']}")
+    st.write(f"- Duration: {project['duration']}")
     st.write("")
 
-# Create section for research papers
-st.header('Research Papers')
-st.write('Here are some of my research papers:')
+# Create section for awards
+st.header('Awards')
+st.write('Here are some of my awards:')
 
-research_papers = [
-    'Svelte.js: The Most Loved Framework Today',
-    '6G: 6G Network Architecture, 6G Communication Essential Technologies, and 6G Use Cases and Applications',
-    'IoT and Blockchain Integration for Secure Data Management',
-    'The Transfer Learning Power in chatGPT: A Comprehensive Study',
-    'UAVs - Pioneering the Future of Remote Sensing and Precision Agriculture',
-    'From User Testing to Personalization - A Comprehensive Guide to Mobile App Design',
-    'Augmented Reality(AR) and Mixed Reality (MR) - Applications in education, entertainment and industry',
-    'An extensive comparative analysis of Chatbot technologies: ChatGPT, Google BARD, and Microsoft Bing',
-    'Developing algorithms for efficient and scalable Machine Learning'
+awards = [
+    'Finalist: Forti Hackathon',
+    '2nd Runner Ups: Ideathon 2022 Hackathon',
+    'Top 30 International: Technothon 2022 Hackathon, GCET'
 ]
 
-# Display research papers in a bulleted list
-for paper in research_papers:
-    st.write('- ' + paper)
+# Display awards in a bulleted list
+for award in awards:
+    st.write('- ' + award)
 
-# Create section for patents
-st.header('Patents')
-st.write('Here are some of my patents:')
+    # Create section for community experience
+    st.header('Community Experience')
+    st.write('Here is my community experience:')
 
-patents = [
-    'Automated Display Lid Closing System For Laptops (ID: 202211055162)',
-    'Explosive Detection Device (ID: 202311014046)',
-    'Smart User-Interactive System For Laptop (ID: 202211055159)'
-]
+    community_experience = [
+        {
+            'role': 'Founder University Chapter Lead',
+            'organization': 'Hack2skill The Mountains',
+            'duration': 'Aug 2022 – Dec 2022'
+        },
+        {
+            'role': 'Founder Vice Chair',
+            'organization': 'IEEE Computational Intelligence Society IEEE Chandigarh University Student Branch',
+            'duration': 'Feb 2022 – June 2022'
+        },
+        {
+            'role': 'Founder Treasurer',
+            'organization': 'IEEE Robotics and Automation Society IEEE Chandigarh University Student Branch',
+            'duration': 'Jan 2022 – Feb 2022'
+        },
+        {
+            'role': 'Planning and Development Sub-Lead',
+            'organization': 'Events CSE Chandigarh University',
+            'duration': 'Jan 2022 – Aug 2022'
+        },
+        {
+            'role': 'Promotion Manager and Coordinator',
+            'organization': 'Tech Invent Chandigarh University',
+            'duration': 'July 2021 – Sept 2021'
+        }
+    ]
 
-# Display patents in a bulleted list
-for patent in patents:
-    st.write('- ' + patent)
+    # Display community experience in a table
+    for experience in community_experience:
+        st.write(f"**{experience['role']}** at {experience['organization']} ({experience['duration']})")
+        st.write("")
+
+    # Create section for research papers
+    st.header('Research Papers')
+    st.write('Here are some of my research papers:')
+
+    research_papers = [
+        'Svelte.js: The Most Loved Framework Today',
+        '6G: 6G Network Architecture, 6G Communication Essential Technologies, and 6G Use Cases and Applications',
+        'IoT and Blockchain Integration for Secure Data Management',
+        'The Transfer Learning Power in chatGPT: A Comprehensive Study',
+        'UAVs - Pioneering the Future of Remote Sensing and Precision Agriculture',
+        'From User Testing to Personalization - A Comprehensive Guide to Mobile App Design',
+        'Augmented Reality(AR) and Mixed Reality (MR) - Applications in education, entertainment and industry',
+        'An extensive comparative analysis of Chatbot technologies: ChatGPT, Google BARD, and Microsoft Bing',
+        'Developing algorithms for efficient and scalable Machine Learning'
+    ]
+
+    # Display research papers in a bulleted list
+    for paper in research_papers:
+        st.write('- ' + paper)
+
+    # Create section for patents
+    st.header('Patents')
+    st.write('Here are some of my patents:')
+
+    patents = [
+        'Automated Display Lid Closing System For Laptops (ID: 202211055162)',
+        'Explosive Detection Device (ID: 202311014046)',
+        'Smart User-Interactive System For Laptop (ID: 202211055159)'
+    ]
+
+    # Display patents in a bulleted list
+    for patent in patents:
+        st.write('- ' + patent)
