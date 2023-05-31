@@ -15,10 +15,10 @@ personal_details = {
     'Name': 'Rohan Godha',
     'Phone': '+91 8824024440',
     'Email': 'rohangodha.official@gmail.com',
-    'LinkedIn': 'LinkedIn',
-    'GitHub': 'GitHub',
-    'LeetCode': 'LeetCode',
-    'GeeksForGeeks': 'GeeksForGeeks'
+    'LinkedIn': 'https://www.linkedin.com/in/rohan-godha-1257411b3/',
+    'GitHub': 'https://github.com/RohanGodha',
+    'LeetCode': 'https://leetcode.com/RohanGodha/',
+    'GeeksForGeeks': 'https://auth.geeksforgeeks.org/user/yoyorodha/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user'
 }
 
 # Display personal details in a table
