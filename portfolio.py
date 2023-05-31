@@ -27,7 +27,7 @@ for key, value in personal_details.items():
 
 # Create section for about me
 st.header('About Me')
-st.write('I am an aspiring undergraduate professional with exceptional organizational and analytical skills. I thrive in dynamic environments and excel in Web, Graphics, Research, and Data Analysis. I am eager to collaborate with product leaders and provide meaningful insights to improve overall performance.')
+st.write('I am an ambitious undergraduate professional with strong organizational and analytical skills. I excel in web development, graphics design, research, and data analysis. I thrive in dynamic environments and am eager to collaborate with product leaders to deliver valuable insights for enhancing overall performance.')
 
 # Create section for education
 st.header('Education')
