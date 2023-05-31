@@ -9,7 +9,7 @@ st.write('Welcome to my personal portfolio. This is a collection of my personal 
 
 # Create section for personal details and coding profile links
 st.header('Personal Details and Coding Profile Links')
-st.write('Here are my personal details and links to my coding profile:')
+st.write('Welcome to my profile! Here you will find my personal details and links to my coding portfolio:')
 
 personal_details = {
     'Name': 'Rohan Godha',
