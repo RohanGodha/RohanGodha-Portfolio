@@ -67,7 +67,7 @@ technical_skills = [
     'Languages: C, C++, Java, R, Python, HTML, CSS, ES6, JavaScript, MySQL, YAML',
     'Frameworks: Svelte.js, Streamlit, MongoDB, Firebase, WordPress, Tailwind, Bootstrap',
     'Tools: Linux, GitHub, GCP, AWS, VS Code, PyCharm, Netbeans, Tableau, MsOffice',
-    'Libraries: Pandas, NumPy, Matplotlib, Streamlit',
+    'Libraries: Pandas, NumPy, Matplotlib',
     'UI/UX and Media Tools: Canva, Figma, AdobeXD, Audacity, Filmora, Kinemaster, Filmaker'
 ]
 
