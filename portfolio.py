@@ -65,7 +65,7 @@ st.write('Here are my technical skills:')
 
 technical_skills = [
     'Languages: C, C++, Java, R, Python, HTML, CSS, ES6, JavaScript, MySQL, YAML',
-    'Frameworks: Svelte.js, MongoDB, Firebase, WordPress, Tailwind, Bootstrap',
+    'Frameworks: Svelte.js, Streamlit, MongoDB, Firebase, WordPress, Tailwind, Bootstrap',
     'Tools: Linux, GitHub, GCP, AWS, VS Code, PyCharm, Netbeans, Tableau, MsOffice',
     'Libraries: Pandas, NumPy, Matplotlib, Streamlit',
     'UI/UX and Media Tools: Canva, Figma, AdobeXD, Audacity, Filmora, Kinemaster, Filmaker'
