@@ -110,6 +110,7 @@ certifications = [
     'The Fundamentals of Digital Marketing: Google',
     '30 Days of Google Cloud: Developer Students Club, Google',
     'Hacktoberfest 2020, 2021, 2022: Github, Digital Ocean, Open source'
+    'Girl Script Summer Of Code'
 ]
 
 # Display certifications in a bulleted list
